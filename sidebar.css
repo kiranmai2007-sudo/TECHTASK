@@ -1,0 +1,80 @@
+.sidebar{
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    row-gap:75px;
+    margin-top: 80px;
+    margin-left: -5px;
+    font-family: "Cookie", cursive;
+    font-size: 25px;
+    height: 750px;
+}
+.home{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-content: center;
+    margin-left: 5px;
+}
+.home img{
+    height:60px;
+    width:60px;
+}
+.home-text{
+    margin-left: 9px;
+}
+.movies{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+   align-content: center;
+    margin-left: 5px;
+}
+.movies img{
+    height:60px;
+    width:60px;
+}
+.movies-text{
+    margin-left: 9px;
+}
+.bookings{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+   align-content: center;
+    margin-left: 5px;
+}
+.bookings img{
+    height:60px;
+    width:60px;
+}
+.bookings-text{
+    margin-left: 0px;
+}
+.About-Us{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+   align-content: center;
+    margin-left: 5px;
+}
+.About-Us img{
+    height:60px;
+    width:60px;
+}
+.About-Us-text{
+    margin-left: 9px;
+}
+.contacts{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+   align-content: center;
+    margin-left: 5px;
+}
+.contacts img{
+    height:60px;
+    width:60px;
+}
+.contacts-text{
+    margin-left: 0px;
+}

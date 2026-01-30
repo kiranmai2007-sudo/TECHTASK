@@ -1,0 +1,80 @@
+.nav-bar {
+  font-family: "Cookie", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+.nav-bar {
+    display:grid;
+    grid-template-columns: 1fr 14fr 0.5fr 0.5fr 0.5fr;
+    align-items: center;
+    justify-content: center;
+    padding :10px; 
+    height:65px;
+    margin-top: -30px;
+    position:fixed;
+    background-color: white;
+}
+.website-logo{
+    margin-top:10px;
+}
+.website-logo img{
+    width:100px;    
+}
+.search-bar{
+    display: flex;
+    margin-left:87px;
+}
+.search-button2{
+    border-radius: 10px;
+}
+.search{
+    height:25px;
+    width: 100%;
+    max-width: 500px;
+    padding:10px;  
+    margin-right: 0px;
+    border-radius: 10px;    
+}
+.search::placeholder{
+    font-size:20px;
+    font-family:"Cookie", cursive;
+}
+.location{
+    width:45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -5px;
+    margin-right: 0px;
+   
+   
+}
+.location img{
+    height: 45px;
+    padding-top:7px;
+}
+.location-text{
+    font-size: 15px;
+    margin-top:-2px;
+   
+}
+.profile{
+    width:60px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -12px;
+    margin-left: 0px;
+    
+}
+.profile img{
+    height:60px;
+    padding-top:7px;
+}
+.profile-text{
+    font-size: 15px;
+    margin-top: -9px;
+}
+

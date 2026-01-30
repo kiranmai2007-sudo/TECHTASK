@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Movie Booking Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="nav.css">
+        <link rel="stylesheet" href="sidebar.css">
+        <link rel="stylesheet" href="footer.css">
+        <script src="script.js" defer></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    </head>
+    <body>
+         <div class="nav-bar">
+            <div class="website-logo">
+               <img src="PICTURES/logo.jpeg" alt="logo of website">
+             </div>
+             <div class="search-bar">
+              <input class="search" type="text" placeholder="Search for movies">
+              <button class="search-button2">🔍</button>
+             </div>
+             <div class="location">
+               <img src="PICTURES/location2.jpeg">
+               <span class="location-text">Location</span>
+             </div>
+             <div class="profile">
+               <img src="PICTURES/profile.jpeg">
+              <span class="profile-text">Profile</span> 
+            </div>
+         </div>
+         <div class="content">
+      <sidebar class="sidebar">
+         <div class="home">
+           <img src="PICTURES/home.jpeg">
+           <span class="home-text">Home</span>
+         </div>
+         <div class="movies">
+           <img src="PICTURES/movies.jpeg">
+           <span class="movies-text">Movies</span>
+         </div>
+         <div class="bookings">
+           <img src="PICTURES/bookings.jpeg">
+           <span class="bookings-text">My Bookings</span>
+         </div>
+         <div class="About-Us">
+           <img src="PICTURES/about us.jpeg">
+           <span class="aboutus-text">About Us</span>
+         </div>
+         <div class="contacts">
+           <img src="PICTURES/contact us.jpeg">
+           <span class="contacts-text">Contact Us</span>
+         </div>
+      </sidebar>
+            <div class="main">
+                  <div class="movie1">
+                        <img class="movie1-img" src="PICTURES/movie1.avif" alt="Movie 1">
+                        <div class="movie1-content">
+                           <div class="movie1-name">Border 2</div>
+                           <div class="movie1-language">Hindi</div>
+                           <div class="movie1-category">Action,Drama,War</div>
+                           <div class="movie1-rating">8.8/10</div>
+                        </div>
+                        <button class="book-now-btn" onclick="goToPage()" data-target="movie1-name">Book Now</button>
+                  </div>
+                  <div class="movie2">
+                        <img class="movie2-img" src="PICTURES/movie2.avif" alt="Movie 2">
+                        <div class="movie2-content">
+                           <div class="movie2-name">Anaganaga Oka Raaju</div>
+                           <div class="movie2-language">Telugu</div>
+                           <div class="movie2-category">Comedy,Romance,Thriller</div>
+                           <div class="movie2-rating">6.9/10</div>
+                        </div>
+                        <button class="book-now-btn" onclick="goToPage()" data-target="movie2-name">Book Now</button>
+                  </div>
+                  <div class="movie3">
+                        <img class="movie3-img" src="PICTURES/movie3.avif" alt="Movie 3">
+                        <div class="movie3-content">
+                           <div class="movie3-name">Rajasaab</div>
+                           <div class="movie3-language">Telugu</div>
+                           <div class="movie3-category">Comedy,Horror,Romantic</div>
+                           <div class="movie3-rating">7.4/10</div>
+                        </div>
+                        <button class="book-now-btn" onclick="goToPage()" data-target="movie3-name">Book Now</button>
+                  </div>
+                  <div class="movie4">
+                        <img class="movie4-img" src="PICTURES/movie4.avif" alt="Movie 4">
+                        <div class="movie4-content">
+                           <div class="movie4-name">Zootopia2</div>
+                           <div class="movie4-language">English</div>
+                           <div class="movie4-category">Animation,Adventure</div>
+                           <div class="movie4-rating">9.1/10</div>
+                        </div>
+                        <button class="book-now-btn" onclick="goToPage()" data-target="movie4-name">Book Now</button>
+                  </div>
+                  <div class="movie5">
+                        <img class="movie5-img" src="PICTURES/movie5.webp" alt="Movie 5">
+                        <div class="movie5-content">
+                           <div class="movie5-name">Avtar:Fire and Ash</div>
+                           <div class="movie5-language">English</div>
+                           <div class="movie5-category">Action,Fantasy</div>
+                           <div class="movie5-rating">7.4/10</div>
+                        </div>
+                        <button class="book-now-btn" onclick="goToPage()" data-target="movie5-name">Book Now</button>
+                  </div>
+                  <div class="movie6">
+                        <img class="movie6-img" src="PICTURES/movie6.avif" alt="Movie 6">
+                        <div class="movie6-content">
+                           <div class="movie6-name">The Housemaid</div>
+                           <div class="movie6-language">English</div>
+                           <div class="movie6-category">Thriller,Mystery</div>
+                           <div class="movie6-rating">7/10</div>
+                        </div>
+                        <button class="book-now-btn" onclick="goToPage()" data-target="movie6-name">Book Now</button>
+                  </div>
+                  <div class="movie7">
+                        <img class="movie7-img" src="PICTURES/movie7.jpg" alt="Movie 5">
+                        <div class="movie7-content">
+                           <div class="movie7-name">Rahu Ketu</div>
+                           <div class="movie7-language">Hindi</div>
+                           <div class="movie7-category">Comedy</div>
+                           <div class="movie7-rating">8.5/10</div>
+                        </div>
+                        <button class="book-now-btn" onclick="goToPage()" data-target="movie7-name">Book Now</button>
+                  </div>
+                  <div class="movie8">
+                        <img class="movie8-img" src="PICTURES/movie8.avif" alt="Movie 5">
+                        <div class="movie8-content">
+                           <div class="movie8-name">Rab Ne Bana Di Jodi</div>
+                           <div class="movie8-language">Hindi</div>
+                           <div class="movie8-category">Romance,Comedy</div>
+                           <div class="movie8-rating">7.2/10</div>
+                        </div>
+                        <button class="book-now-btn" onclick="goToPage()" data-target="movie8-name">Book Now</button>
+                  </div>
+                  <div class="movie9">
+                        <img class="movie9-img" src="PICTURES/movie9.jpg" alt="Movie 5">
+                        <div class="movie9-content">
+                           <div class="movie9-name">Baby Girl</div>
+                           <div class="movie9-language">Malayalam</div>
+                           <div class="movie9-category">Thriller</div>
+                           <div class="movie9-rating">7.6/10</div>
+                        </div>
+                        <button class="book-now-btn" onclick="goToPage()" data-target="movie9-name">Book Now</button>
+                  </div>
+                  <div class="movie10">
+                        <img class="movie10-img" src="PICTURES/movie10.webp" alt="Movie 5">
+                        <div class="movie10-content">
+                           <div class="movie10-name">Vijaynagar-Er Hirey</div>
+                           <div class="movie10-language">Bengali</div>
+                           <div class="movie10-category">Thriller,Adventure</div>
+                           <div class="movie10-rating">8.1/10</div>
+                        </div>
+                        <button class="book-now-btn" onclick="goToPage()" data-target="movie10-name">Book Now</button>
+                  </div>
+            </div>
+         </div>
+    </body>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="general-content">© 2026 All rights reserved</div>
+            <div class="privacy-policy">
+               <a href="https://www.pvrcinemas.com/privacy-policy">Privacy Policy</a>
+            </div>
+            <div class="terms-and-conditions">
+               <a href="https://www.pvrcinemas.com/terms-and-conditions">Terms & Conditions</a>
+            </div>
+            <div class="terms-of-use">
+               <a href="https://www.pvrcinemas.com/terms-of-use">Terms of Use</a>
+            </div>
+            <div class="customer-experience">
+               Customer Experience
+            </div>
+        </div>
+</html>
